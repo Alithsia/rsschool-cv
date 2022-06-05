@@ -1,1 +1,1 @@
-https://Alithsia.github.io/rsschool-cv/cv
+https://Alithsia.github.io/rsschool-cv/
