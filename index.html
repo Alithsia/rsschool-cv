@@ -3,9 +3,97 @@
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@400;700&display=swap" rel="stylesheet">
+  <title>CV Artemeva Anastasiya</title>
 </head>
 <body>
+  <div class="container">
+    <header class="header">
+      <div class="wrapper-header">
+        <div class="header-text">
+          <div class="my-name">
+            <h1>Anastasiya Artemeva</h1>
+            <p class="developer">Future Front-End Developer</p>
+          </div>
+          <div class="contacts">
+            <div class="contact-unit">
+              <h4>GitHub</h4>
+              <span>Alithsia</span>
+            </div>
+            <div class="contact-unit">
+              <h4>E-mail</h4>
+              <span>ana.arrte@gmail.com</span>
+            </div>
+            <div class="contact-unit">
+              <h4>Location</h4>
+              <span>Russia, St. Petersburg</span>
+            </div>
+            <div class="contact-unit">
+              <h4>Telegram</h4>
+              <span>@ana_arrte</span>
+            </div>
+          </div>
+        </div>
+        <img src="./images/photo.jpg" alt="My photo" class="my-photo">
+      </div>
+    </header>
+    <main class="main">
+      <div class="wrapper">
+        <div class="about-me">
+          <h2>About me</h2>
+          <p>Today my main goal is to become a front-end developer. The world of programming is interesting and exciting, and I want to be a part of it. Constantly developing and gaining new knowledge energize me, make me better. I consider myself responsible, diligent and hardworking. And I believe that these qualities will help me achieve what I want.</p>
+        </div>
+        <hr>
+        <div class="components-cv">
+          <div class="component">
+            <h3>Skills</h3>
+            <ul class="skills">
+              <li>HTML</li>
+              <li>CSS</li>
+            </ul>
+          </div>
+          <div class="component">
+            <h3>Code examples</h3>
+            <code>
+              function multiply(a, b){<br>
+                return a * b;<br>
+              }
+            </code>
+          </div>
+          <div class="component">
+            <h3>Project</h3>
+            <a href="https://github.com/Alithsia/rsschool-cv/blob/gh-pages/cv.md" class="link-cv"><p>Link to CV</p></a>
+          </div>
+          <div class="component comp_education">
+            <h3>Education</h3>
+            <p>Povolzhskiy State University of Telecommunications and Informatics, Informatics and Computer Engineering</p>
+          </div>
+          <div class="component comp_languages">
+            <h3>Languages</h3>
+            <ul class="languages">
+              <li>Russian - Native</li>
+              <li>English - Basic user (I continue to study English, because I want to level up)</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="footer-info">
+        <a class="my-github" href="https://github.com/Alithsia">
+          <img class="github-icon" src="./images/icon-github.svg" alt="GitHub logo">
+          <p>My GitHub</p>
+        </a>
+        <p>2022</p>
+        <a href="https://rs.school/js/">
+          <img src="./images/icon-rs_school.svg" alt="Rolling Scopes School logo">
+        </a>
+      </div>
+    </footer>
+  </div>
 </body>
 </html>
