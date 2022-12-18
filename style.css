@@ -3,11 +3,85 @@ html {
 }
 
 body {
-  font-size: 1.6rem;
-  font-family: '';
+  font-size: 2rem;
+  font-family: "Oxygen", Verdana, sans-serif;
 }
 
 .container {
-  width: 1000px;
+  width: 1200px;
   height: 100%;
+  margin: auto;
+  background-color: bisque;
+}
+
+h1 {
+  font-size: 5rem;
+  margin: 0;
+}
+
+h2 {
+  font-size: 4rem;
+}
+
+h3 {
+  font-size: 3rem;
+}
+
+h4 {
+  font-size: 2.5rem;
+  margin: 0;
+}
+
+.header {
+  background-color: #D5EBFF;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.header-text{
+  width: 600px;
+}
+
+.my-name {
+  width: 300px;
+  height: 140px;
+  padding: 50px 50px;
+}
+
+.developer {
+  background-color: #E8F4FF;
+}
+
+.contacts {
+  width: 600px;
+  height: 200px;
+  margin: 50px 50px 0;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.my-photo {
+  width: 382px;
+  height: 410px;
+  
+}
+
+.footer {
+  background-color: #D5EBFF;
+}
+
+.footer-info {
+  margin: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.my-github {
+  text-decoration: none;
+  display: flex;
+  color: black;
+}
+
+.github-icon {
+  margin-right: 5px;
 }
