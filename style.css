@@ -1,0 +1,132 @@
+html {
+  font-size: 10px;
+}
+
+body {
+  font-size: 2rem;
+  font-family: "Oxygen", Verdana, sans-serif;
+}
+
+.container {
+  width: 1200px;
+  height: 100%;
+  margin: auto;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+  font-size: 6rem;
+  margin: 0;
+}
+
+h2 {
+  font-size: 4rem;
+}
+
+h3 {
+  font-size: 3rem;
+}
+
+h4 {
+  font-size: 2.5rem;
+  margin: 5px 0;
+}
+
+.header {
+  background-color: #D5EBFF;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.wrapper-header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.header-text{
+  width: 600px;
+}
+
+.my-name {
+  width: 300px;
+  height: 140px;
+  padding: 50px 50px;
+}
+
+.developer {
+  background-color: #E8F4FF;
+}
+
+.contacts {
+  width: 600px;
+  height: 180px;
+  margin: 50px 50px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.contact-unit {
+  margin-bottom: 5px;
+}
+
+.my-photo {
+  width: 382px;
+  height: 410px;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+.wrapper {
+  width: 1000px;
+  height: 800px;
+  margin: auto;
+}
+
+.components-cv {
+  height: 600px;
+  width: 600px;
+  margin: 50px 30px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.component {
+  margin-bottom: 15px;
+}
+
+.comp_education {
+  width: 500px;
+  margin-left: 210px;
+}
+
+.comp_languages {
+  width: 500px;
+  margin-left: 210px;
+}
+
+.link-cv {
+  text-decoration: none;
+  color: black;
+}
+
+.footer {
+  background-color: #D5EBFF;
+}
+
+.footer-info {
+  margin: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.my-github {
+  text-decoration: none;
+  display: flex;
+  color: black;
+}
+
+.github-icon {
+  margin-right: 5px;
+}
