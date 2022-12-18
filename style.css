@@ -1,3 +1,13 @@
-* {
-  /*styles for html document*/
+html {
+  font-size: 10px;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: '';
+}
+
+.container {
+  width: 1000px;
+  height: 100%;
 }
